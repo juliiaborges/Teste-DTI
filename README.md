@@ -17,25 +17,23 @@ Antes de iniciar, verifique se você possui os seguintes requisitos instalados e
 
 
 # Iniciando o Sitema 
+1. Abra 2 terminais
 
-2. Abra um novo terminal e vá até o diretório frontend: cd frontend
+2. Em um deles, abra um novo terminal e vá até o diretório frontend: cd frontend
 
 3. Instale as dependências do projeto: npm install
 
-4. Resente o Terminal : cd ..
+4. No outro terminal navegue até o diretório backend : cd backend/src
 
-5. Navegue até o diretório backend : cd backend/src
-
-6. Instale as deéndências do backend: npm install 
+6. Instale as dependências do backend: npm install 
 
 ## Execução 
 
 1. Inicie o servidor do backend: node index.js 
 
-2. Em um novo terminal, inicie o servidor do frontend: npm start
+2. No outro terminal, inicie o servidor do frontend: npm start
 
-
-3. Acesse a aplicação em seu navegador usando o seguinte URL: http://localhost:3001/
+3. Confirme com "Y" no terminal e ele abrirá a aplicação.
 
 
 ## Testes
