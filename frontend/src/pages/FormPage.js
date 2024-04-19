@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { calculateBestOption } from '../services/petshopService';
-import './FormPage.css'; // Importe o CSS aqui
+import './FormPage.css'; 
 
 function FormPage() {
     const [date, setDate] = useState('');

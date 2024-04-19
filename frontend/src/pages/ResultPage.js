@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import './ResultPage.css'; // Importe o CSS aqui
+import './ResultPage.css'; 
 
 function ResultPage() {
     const location = useLocation();
@@ -10,8 +10,8 @@ function ResultPage() {
         <div className="container3">
             <div className="result-box">
                 <h1>A melhor opção para você é:</h1>
-                <p>Petshop: {result.petshop}</p>
-                <p>Valor: R$ {result.totalCost}</p>
+                <p>Petshop: <strong>{result.petshop}</strong></p>
+                <p>Valor: <strong>R${result.totalCost}</strong></p>
             </div>
         </div>
     );

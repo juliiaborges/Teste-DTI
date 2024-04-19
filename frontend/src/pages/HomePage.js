@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './HomePage.css'; // Importa o CSS
-import ImagemHomePage from '../assets/Illustration.png'; // Garanta que o caminho está correto
+import './HomePage.css'; 
+import ImagemHomePage from '../assets/Illustration.png'; 
 
 function HomePage() {
     return (

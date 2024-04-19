@@ -1,4 +1,4 @@
-/* src/pages/HomePage.css */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     justify-content: center;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: #e9e9e9; /* ajuste conforme necessário */
+    background-color: #e9e9e9; 
   }
   
   .campos-texto h1 {
@@ -31,53 +31,53 @@
     background-color: #7140FD;
     color: white;
     padding: 10px 50px;
-    border-radius: 20px; /* bordas arredondadas */
-    text-decoration: none; /* remove o sublinhado do link */
+    border-radius: 20px;
+    text-decoration: none; 
     font-size: 1rem;
     font-weight: bold;
-    transition: background-color 0.3s; /* efeito suave ao passar o mouse */
+    transition: background-color 0.3s; 
   }
   
   .link-button:hover {
-    background-color: #572acf; /* cor um pouco mais escura ao passar o mouse */
+    background-color: #572acf; 
   }
   
-  @media (max-width: 768px) { /* para tablets e dispositivos menores */
+  @media (max-width: 768px) { 
     .campos-texto h1 {
-      font-size: 1.75rem; /* Menor que o tamanho original para caber bem em tablets */
-      margin-top: 5%; /* Menos espaço no topo */
+      font-size: 1.75rem; 
+      margin-top: 5%; 
     }
     
     .campos-texto p {
-      font-size: 0.9rem; /* Tamanho menor para o texto */
-      padding: 0 20px; /* Adiciona padding para não tocar nas bordas */
+      font-size: 0.9rem; 
+      padding: 0 20px; 
     }
   
     .campo-imagem img {
-      max-width: 100%; /* A imagem pode ser um pouco maior em tablets */
+      max-width: 100%; 
     }
     
     .link-button {
-      padding: 10px 40px; /* Menos padding horizontal */
+      padding: 10px 40px; 
     }
   }
   
-  @media (max-width: 480px) { /* para celulares */
+  @media (max-width: 480px) { 
     .campos-texto h1 {
-      font-size: 1rem; /* Tamanho da fonte ainda menor para celulares */
+      font-size: 1rem; 
     }
     
     .campos-texto p {
-      font-size: 0.8rem; /* Tamanho da fonte menor para celulares */
-      padding: 0 10px; /* Padding reduzido */
+      font-size: 0.8rem; 
+      padding: 0 10px; 
     }
   
     .campo-imagem img {
-      max-width: 80%; /* Aproveite a largura total para imagens em celulares */
+      max-width: 80%; 
     }
   
     .link-button {
-      padding: 10px 20px; /* Padding mais ajustado para botões em celulares */
-      font-size: 0.9rem; /* Tamanho da fonte menor para o texto do botão */
+      padding: 10px 20px; 
+      font-size: 0.9rem; 
     }
   }
