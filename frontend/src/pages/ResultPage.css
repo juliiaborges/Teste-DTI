@@ -1,0 +1,67 @@
+/* src/pages/ResultPage.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Isso ajuda a cobrir a altura inteira da página */
+  }
+  
+  
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(169, 175, 255) !important; 
+    background: url('../assets/fundo.png') no-repeat center center fixed;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .result-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px; /* bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin: auto; /* centrar horizontalmente */
+  }
+  
+  .result-box h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .result-box p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .result-box {
+      padding: 30px;
+    }
+  
+    .result-box h1 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .result-box {
+      padding: 20px;
+    }
+  
+    .result-box h1 {
+      font-size: 1.5rem;
+    }
+  
+    .result-box p {
+      font-size: 0.9rem;
+    }
+  }
+  

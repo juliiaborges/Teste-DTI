@@ -1,0 +1,83 @@
+/* src/pages/HomePage.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9e9e9; /* ajuste conforme necessário */
+  }
+  
+  .campos-texto h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-top: 8%;
+  }
+  
+  .campos-texto p {
+    color: #666;
+    font-size: 1em;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .campo-imagem img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .link-button {
+    background-color: #7140FD;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px; /* bordas arredondadas */
+    text-decoration: none; /* remove o sublinhado do link */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s; /* efeito suave ao passar o mouse */
+  }
+  
+  .link-button:hover {
+    background-color: #572acf; /* cor um pouco mais escura ao passar o mouse */
+  }
+  
+  @media (max-width: 768px) { /* para tablets e dispositivos menores */
+    .campos-texto h1 {
+      font-size: 1.75rem; /* Menor que o tamanho original para caber bem em tablets */
+      margin-top: 5%; /* Menos espaço no topo */
+    }
+    
+    .campos-texto p {
+      font-size: 0.9rem; /* Tamanho menor para o texto */
+      padding: 0 20px; /* Adiciona padding para não tocar nas bordas */
+    }
+  
+    .campo-imagem img {
+      max-width: 100%; /* A imagem pode ser um pouco maior em tablets */
+    }
+    
+    .link-button {
+      padding: 10px 40px; /* Menos padding horizontal */
+    }
+  }
+  
+  @media (max-width: 480px) { /* para celulares */
+    .campos-texto h1 {
+      font-size: 1rem; /* Tamanho da fonte ainda menor para celulares */
+    }
+    
+    .campos-texto p {
+      font-size: 0.8rem; /* Tamanho da fonte menor para celulares */
+      padding: 0 10px; /* Padding reduzido */
+    }
+  
+    .campo-imagem img {
+      max-width: 80%; /* Aproveite a largura total para imagens em celulares */
+    }
+  
+    .link-button {
+      padding: 10px 20px; /* Padding mais ajustado para botões em celulares */
+      font-size: 0.9rem; /* Tamanho da fonte menor para o texto do botão */
+    }
+  }

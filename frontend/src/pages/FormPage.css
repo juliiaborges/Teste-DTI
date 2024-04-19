@@ -1,0 +1,89 @@
+/* src/pages/FormPage.css */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('../assets/fundo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .campo-texto h1 {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .formulario {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgb(148, 145, 145);
+  }
+  
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario label {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .formulario input {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #7140FD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #572acf;
+  }
+  /* Responsividade */
+@media (max-width: 768px) { /* para tablets e dispositivos menores */
+   
+    .formulario {
+      padding: 20px; /* Menos padding */
+      width: 85%; /* Largura um pouco maior para usar mais espaço */
+    }
+  
+    .formulario form {
+      width: 100%; /* Utilizar toda a largura disponível */
+    }
+    .formulario input {
+        width: 85%; /* Utilizar toda a largura disponível */
+      }
+  }
+  
+  @media (max-width: 480px) { /* para celulares */
+    .formulario {
+      padding: 20px; /* Ainda menos padding */
+    }
+  
+    .formulario label,
+    .formulario input,
+    button {
+      font-size: 14px; /* Reduzir o tamanho da fonte */
+    }
+  
+    button {
+      padding: 10px 15px; /* Menos padding no botão */
+    }
+  }
