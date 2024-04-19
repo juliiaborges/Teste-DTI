@@ -1,4 +1,4 @@
-const { calculatePrice } = require('../../backend/src/services/petshopServices');
+const { calculatePrice } = require('../backend/src/services/petshopServices');
 describe('calculatePrice', () => {
   it('deve calcular o menor custo durante a semana para cães pequenos e grandes', () => {
     const isWeekend = false;

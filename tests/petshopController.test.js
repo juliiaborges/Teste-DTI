@@ -3,7 +3,7 @@ const request = require('supertest');
 const express = require('express');
 const app = express();
 app.use(express.json());
-const petshopRoutes = require('../../../backend/src/routes/petshopRoutes');
+const petshopRoutes = require('../backend/src/routes/petshopRoutes');
 app.use('/api', petshopRoutes);
 
 describe('POST /api/calculate', () => {
