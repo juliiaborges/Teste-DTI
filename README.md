@@ -35,6 +35,9 @@ Antes de iniciar, verifique se você possui os seguintes requisitos instalados e
 
 3. Confirme com "Y" no terminal e ele abrirá a aplicação.
 
+## Vídeo Explicativo 
+
+Caso não tenha entendido, é só assistir o vídeo do link : https://www.youtube.com/watch?v=OYIZAhI7W9I&ab_channel=J%C3%BAliaBorges
 
 ## Testes
 
