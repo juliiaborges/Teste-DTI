@@ -41,7 +41,7 @@ Caso não tenha entendido, é só assistir o vídeo do link : https://www.youtub
 
 ## Testes
 
-Para executar os testes do projeto, utilize o seguinte comando: npm test
+Para executar os testes do projeto, utilize o seguinte comando: npm tests
 
 
 

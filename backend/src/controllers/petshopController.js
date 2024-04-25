@@ -1,6 +1,6 @@
 const { calculatePrice } = require('../services/petshopServices');
 
-exports.calculateBestOption = (req, res) => {
+exports.calculatePrice = (req, res) => {
     const { date, smallDogs, largeDogs } = req.body;
     const isWeekend = new Date(date).getDay() === 5 || new Date(date).getDay() === 6; 
 

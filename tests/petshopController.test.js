@@ -10,7 +10,7 @@ describe('POST /api/calculate', () => {
   it('deve responder com o melhor petshop e o custo total para uma data específica', async () => {
     const response = await request(app)
       .post('/api/calculate')
-      .send({ date: '2022-03-07', smallDogs: 3, largeDogs: 5 });
+      .send({ date: '2024-04-07', smallDogs: 3, largeDogs: 5 });
 
     expect(response.statusCode).toBe(200);
     expect(response.body).toEqual({
